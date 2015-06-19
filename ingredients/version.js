@@ -88,7 +88,7 @@ var buildTask = function(src, buildDir) {
 var getBuildDir = function(buildDir) {
     var baseDir = buildDir || publicDir;
 
-    return baseDir + '/build';
+    return baseDir;
 };
 
 
