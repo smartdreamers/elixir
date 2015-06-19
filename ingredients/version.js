@@ -70,7 +70,7 @@ var buildTask = function(src, buildDir) {
                 // We'll get rid of the duplicated file that
                 // usually gets put in the "build" folder,
                 // alongside the suffixed version.
-                del(files.paths, { force: true });
+                // del(files.paths, { force: true });
 
                 // We'll also copy over relevant sourcemap files.
                 copyMaps(src, buildDir);
